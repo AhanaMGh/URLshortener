@@ -1,0 +1,94 @@
+
+.card {
+    background-color: #f7feff;
+    margin: auto;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 90px 16px;
+  }
+
+  .search, .search-bar input[type="password"]{
+    margin: auto;
+    margin-top:15px;
+    padding: 18px 20px;
+    width: calc(90% - 20px);
+    border: 0.2px solid;
+    border-radius: 10px;
+    background:#e5f9fc;
+    border: 0.2px solid #a8e2eb;
+    font-size: 15px;
+    color: #88c8d2;
+  }
+  ::placeholder {
+    color:  #88c8d2;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 18px 20px;
+    width: 94%;
+    border: 0.2px solid;
+    border-radius: 10px;
+    background:#e5f9fc;
+    border: 0.2px solid #a8e2eb;
+    font-size: 15px;
+    color: #88c8d2;
+  }
+
+  button:hover {
+    background:#d3f9ff;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  #dropdownSelect {
+    margin-top: 15px;
+    padding: 18px 20px;
+    width: 40%;
+    border: 0.2px solid;
+    border-radius: 10px;
+    background:#e5f9fc;
+    border: 0.2px solid #a8e2eb;
+    font-size: 15px;
+    color: #88c8d2;
+  }
+  
+  .search-bar {
+    display: none;
+  }
+
+  .search-bar input[type="text"] {
+    margin-top: 20px;
+  }
+  
+  .warning{
+    display:none;
+    padding-top:10px;
+    text-align: center;
+    width: 100%;
+    height:30px;
+    background:rgb(90, 202, 219);
+    color:rgb(21, 63, 69);
+  }
+
+  #apiSaved{
+    color:rgb(26, 81, 82);
+    background:rgb(95, 220, 232);
+  }
+
+  #URLSaved{
+    color:rgb(26, 81, 82);
+    background:rgb(95, 220, 232);
+  }

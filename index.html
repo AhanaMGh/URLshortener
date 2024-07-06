@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
+    <style>
+        body {
+        font-family: 'Barlow', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <h1>Your Long URL</h1> 
+            <div class = "warning" id = "URLWarning">
+                Please Enter Valid URL
+            </div>
+            <div class = "warning" id = "URLSaved"></div>
+            <div>
+                <input class = "search" id="myurl" type="text" placeholder="Enter Long Link Here..." onkeyup="filterLessons()">
+            </div>
+
+            <button type="button" id = "short">Shorten URL</button>
+
+            <h1>Have your own API Key?</h1> 
+
+            <div class = "warning" id = "apiWarning">
+                Please Enter Valid API
+            </div>
+            <div class = "warning" id = "apiSaved">
+                API Saved!
+            </div>
+
+            <div class="dropdown">
+                <select id="dropdownSelect" onchange="toggleSearch()">
+                <option value="default">No I don't</option>
+                <option value="Yes">Yes I do</option>
+                </select>
+                <div id="searchBar" class="search-bar myapi">
+                <input id = "myapi" type="password" placeholder="API Key">
+                <button id = "save"> Save </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script defer src="index.js"></script>
+</body>
+</html>

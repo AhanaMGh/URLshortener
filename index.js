@@ -69,5 +69,3 @@ function toggleSearch() {
     searchBar.style.display = "block";
   }
 }
-
-// Uz2CayQxGhL0XZWGF5sRybghAISfoW7uyLHu9q7BIiGyaXuiDr2h7wtyq7sH
